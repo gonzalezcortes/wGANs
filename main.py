@@ -25,7 +25,7 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
 
-latent_dim = 100
+latent_dim = 100 
 n_critic = 5
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 lambda_gp = 10
@@ -36,7 +36,7 @@ critic = Critic().to(device)
 optimizer_G = optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.9))
 optimizer_C = optim.Adam(critic.parameters(), lr=0.0002, betas=(0.5, 0.9))
 
-epochs = 50
+epochs = 100
 
 generator_loss_list, critic_loss_list = [], []
 
