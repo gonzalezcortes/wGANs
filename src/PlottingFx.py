@@ -9,7 +9,7 @@ class Plots:
         plt.title("Generator and Critic Loss During Training")
         plt.plot(generator_loss_list,label="Generator")
         plt.plot(critic_loss_list,label="Critic")
-        plt.xlabel("iterations")
+        plt.xlabel("Epochs")
         plt.ylabel("Loss")
         plt.legend()
         plt.savefig('images/Generator_and_Critic_Loss.png')

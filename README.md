@@ -16,7 +16,7 @@ The main components of this repository are:
 
 <h2>Generator and Critic Losses</h2>
 <p>
-    The following plot illustrates the generator and critic losses during the training of the Wasserstein GAN. The x-axis represents the iterations, and the y-axis represents the loss.
+    The following plot illustrates the generator and critic losses during the training of the Wasserstein GAN. The x-axis represents the iterations (Espochs), and the y-axis represents the loss.
 </p>
 <img src="images/Generator_and_Critic_Loss.png" alt="Loss Plot">
 

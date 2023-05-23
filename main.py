@@ -25,7 +25,7 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
 
-latent_dim = 100 
+latent_dim = 100
 n_critic = 5
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 lambda_gp = 10
